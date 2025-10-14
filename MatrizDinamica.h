@@ -6,5 +6,12 @@ private:
     int columnas;
 
 public:
-    // Constructor, Destructor, Métodos de gestión y operaciones
+    // * Constructor
+    MatrizDinamica(int f, int c);
+
+    // * Destructor
+    ~MatrizDinamica();
+
+    // * Redimensión dinámica
+    redimensionarMatriz(int nuevaF, int nuevaC);
 };

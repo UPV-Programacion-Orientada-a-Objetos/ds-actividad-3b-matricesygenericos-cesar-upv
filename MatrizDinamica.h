@@ -1,5 +1,9 @@
+#ifndef MATRIZDINAMICA_H
+#define MATRIZDINAMICA_H
+
 template <typename T>
-class MatrizDinamica {
+class MatrizDinamica
+{
 private:
     T **datos;
     int filas;
@@ -15,3 +19,5 @@ public:
     // * Redimensión dinámica
     redimensionarMatriz(int nuevaF, int nuevaC);
 };
+
+#endif

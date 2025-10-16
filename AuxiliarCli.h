@@ -1,4 +1,3 @@
-// Header guard
 #ifndef AUXILIARCLI_H
 #define AUXILIARCLI_H
 
